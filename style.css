@@ -1,0 +1,46 @@
+body {
+     font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    background: #efefef;
+}
+
+section {
+    background: rgb(248, 178, 204);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 400px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 12px;
+    background-color: hotpink;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cardLivro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.cardLivro img {
+    width: 100px;
+}

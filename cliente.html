@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button id="btnLogout">
+        Sair
+    </button>
+
+    <h1>Área do Cliente</h1>
+
+    <section>
+
+        <h2>Identificação</h2>
+
+        <input type="text" id="nomeCliente" placeholder="Digite seu nome">
+
+    </section>
+
+    <section>
+        <h2>Buscar Livro</h2> <input type="text" id="buscalivro" placeholder="Digite o nome do livro">
+        <button id="btnBuscar">Buscar</button>
+        <div id="loading" style="display: none; font-weight: bold; margin: 10px 0; color: hotpink;"> ⏳ Buscando livro na
+            nuvem... Aguarde... </div>
+        <div id="resultadoLivro"></div>
+    </section>
+    <section>
+
+        <h2>Meus Empréstimos</h2>
+
+        <div id="meusEmprestimos"></div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
